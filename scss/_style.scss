@@ -1,0 +1,11 @@
+// as this file starts with an underscore, it won't be compiled into style.scss, it will just be imported
+html, body {
+  height: 100%;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}

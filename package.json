@@ -1,0 +1,16 @@
+{
+  "name": "dreamersmatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jade De-Terville Martin",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.2"
+  }
+}
