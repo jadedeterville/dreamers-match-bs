@@ -1,6 +1,27 @@
+// font-family: 'Josefin Sans', sans-serif;
+// font-family: 'Oooh Baby', cursive;
+// font-family: 'Open Sans', sans-serif;
+
 // Variables (use this location to change the BS OG variables)
-$primary: #401f7c;
-$secondary: hotpink;
+// backgrounds
+$primary: #c1c8e4;
+// navbar/btn
+$secondary: #8379cd;
+// titles
+$title-color: #8860d0;
+
+// button success
+$success: #5ab9ea;
+
+// Fonts
+// $title-font: 'Josefin Sans', sans-serif;
+// $quote-font: 'Oooh Baby', cursive;
+// $body-font: 'Open Sans', sans-serif;
+
+// $light: 300;
+// $medium: 400;
+
+// variable examples
 $border-radius: 0;
 $border-radius-sm: 0;
 $border-radius-lg: 0;
@@ -24,6 +45,9 @@ $utilities: map-merge(
   ),
   $utilities
 );
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Oooh+Baby&family=Open+Sans:wght@300;400&display=swap');
 
 // import stylesheet
 @import 'style';

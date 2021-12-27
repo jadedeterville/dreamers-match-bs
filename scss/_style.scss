@@ -1,5 +1,15 @@
 // as this file starts with an underscore, it won't be compiled into style.scss, it will just be imported
-html, body {
+
+// Fonts
+// $title-font: 'Josefin Sans', sans-serif;
+// $quote-font: 'Oooh Baby', cursive;
+// $body-font: 'Open Sans', sans-serif;
+
+// $light: 300;
+// $medium: 400;
+
+html,
+body {
   height: 100%;
 }
 
@@ -8,4 +18,8 @@ html, body {
   max-width: 330px;
   padding: 15px;
   margin: auto;
+}
+
+.hello {
+  color: hotpink;
 }
