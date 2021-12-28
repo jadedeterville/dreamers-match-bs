@@ -1,28 +1,6 @@
 // as this file starts with an underscore, it won't be compiled into style.scss, it will just be imported
 
-// Fonts
-// $title-font: 'Josefin Sans', sans-serif;
-// $quote-font: 'Oooh Baby', cursive;
-// $body-font: 'Open Sans', sans-serif;
-
-// $light: 300;
-// $medium: 400;
-
-html,
-body {
-  height: 100%;
-}
-
-.form-login {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
-}
-
-.hello {
-  color: hotpink;
-}
+// Utilities
 
 h1 {
   font-family: $title-font;
@@ -31,3 +9,15 @@ h1 {
 h2 {
   font-family: $body-font;
 }
+
+.bg-image {
+  background-image: url(/img/pexels-ithalu-dominguez-907485\(1\).jpg);
+}
+
+// #background-image {
+//   background-image: url(/img/pexels-ithalu-dominguez-907485\(1\).jpg);
+// }
+
+// body {
+//   background-image: url(/img/pexels-ithalu-dominguez-907485\(1\).jpg);
+// }
