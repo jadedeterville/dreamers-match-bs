@@ -23,3 +23,11 @@ body {
 .hello {
   color: hotpink;
 }
+
+h1 {
+  font-family: $title-font;
+}
+
+h2 {
+  font-family: $body-font;
+}
