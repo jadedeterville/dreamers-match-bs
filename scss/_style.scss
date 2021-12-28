@@ -2,16 +2,45 @@
 
 // Utilities
 
-h1 {
+h1,
+h5 {
   font-family: $title-font;
 }
 
-h2 {
+h2,
+h4 {
   font-family: $body-font;
 }
 
-.bg-image {
-  background-image: url(/img/pexels-ithalu-dominguez-907485\(1\).jpg);
+body {
+  padding-top: 70px;
+  height: 100%;
+}
+
+// Nav
+.navbar {
+  background-color: $secondary-op;
+}
+
+// Homepage
+
+// carousel mask
+.carousel-caption {
+  background-color: $secondary-op;
+}
+
+// quote and mission styling
+.dreamer-qt {
+  font-family: $quote-font;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.mission {
+  p {
+    font-family: $body-font;
+    font-size: 1rem;
+  }
 }
 
 // #background-image {
