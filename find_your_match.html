@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e1ba05f933.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Dreamers Match | Find Your Writing Bestie</title>
+  </head>
+
+  <body>
+    <!-- Nav Starts -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/img/gitlab-logo-1-color-white-rgb.png"
+            alt=""
+            width="100"
+            height="45"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="how_it_works.html"
+                >HOW IT WORKS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FIND YOUR MATCH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">RESOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">MENTORING</a>
+            </li>
+          </ul>
+          <button
+            class="btn btn-lg btn-success text-light"
+            id="loginButton"
+            role="button"
+            data-bs-toggle="modal"
+            data-bs-target="#loginModal"
+          >
+            LOGIN
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nav Ends -->
+
+    <!-- Login Modal Starts -->
+
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginModal"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginModal">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Login Modal Ends -->
+
+    <!-- Showcase Starts -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="display-3">Find Your Match</h1>
+            <h4 class="my-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+              esse!
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase Ends -->
+
+    <!-- Testimonials Starts -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-9 mx-auto">
+          <p class="dreamer-qt text-dark">
+            Thanks to Dreamers Match, I've found a critique partner who gets me
+            and my writing. We host regular meetups on Zoom and send each other
+            little treats every so often to celebrate milestones.
+          </p>
+          <footer class="blockquote-footer">
+            <cite title="Source Title">Anna Woodley</cite>
+          </footer>
+        </div>
+        <div class="col-9 mx-auto">
+          <p class="dreamer-qt text-dark">
+            Me and my critique partner sold books to publishers this year. We
+            also expanded our critique group to include two others and it's
+            great to be able to pick each other's brains on writing and the
+            publishing process when we need to. Being a member also means that
+            we get access to exclusive creative writing resources and live
+            webinars every month! Love it!
+          </p>
+          <footer class="blockquote-footer">
+            <cite title="Source Title">Steven Wilde</cite>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials Ends -->
+
+    <!-- Sign Up Form Starts -->
+    <div class="container">
+      <h4>Join Our Community</h4>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos,
+        similique?
+      </p>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputLastName" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="inputLastName" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPronouns" class="form-label">Your Pronouns</label>
+          <input type="text" class="form-control" id="inputPronouns" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="inputEmail" />
+        </div>
+        <div class="col-12">
+          <label for="inputDiscord" class="form-label">Discord Username</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputDiscord"
+            placeholder="Sign up for Discord before completing this form"
+          />
+        </div>
+        <!-- CP or CP Group (Select One) -->
+        <div class="col-12">
+          <label for="inputLookingFor" class="form-label"
+            >I am looking for...</label
+          >
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputLookingFor"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              A Critique Partner
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputLookingFor"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              A Critique Group
+            </label>
+          </div>
+        </div>
+        <!-- Age Ranges (Select All) -->
+        <div class="col-12">
+          <label for="inputAgeRanges" class="form-label"
+            >I write for the following age ranges...</label
+          >
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputAgeRanges"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Picture Book
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputAgeRanges"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Middle Grade (8-12)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputAgeRanges"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Young Adult (13-18)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputAgeRanges"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              New Adult (19-25)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputAgeRanges"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Adult (19+)
+            </label>
+          </div>
+        </div>
+        <!-- Genre (Select All) -->
+        <div class="col-12">
+          <label for="inputGenre" class="form-label"
+            >I write the following genre(s)...</label
+          >
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Contempory
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Romance
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Fantasy
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Graphic Novel
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Horror
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Mystery
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Science Fiction
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="inputGenre"
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Thriller
+            </label>
+          </div>
+        </div>
+
+        <!-- Self Description Label (Select One) -->
+        <div class="col-12">
+          <label for="inputAboutMe" class="form-label"
+            >Please select the statement that best matches you</label
+          >
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              I'm fairly new to writing; I have not yet finished writing a
+              manuscript.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              I've been writing for a while and don't intend to pursue
+              publication.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option3"
+            />
+            <label class="form-check-label" for="exampleRadios3">
+              I've been writing for a while and haven't yet queried a book, but
+              plan to!
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option4"
+            />
+            <label class="form-check-label" for="exampleRadios4">
+              I am currently querying a manuscript in pursuit of traditional
+              publication.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option5"
+            />
+            <label class="form-check-label" for="exampleRadios5">
+              I am an agented writer pursuing traditional publication.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option6"
+            />
+            <label class="form-check-label" for="exampleRadios6">
+              I am a traditionally published writer.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option7"
+            />
+            <label class="form-check-label" for="exampleRadios7">
+              I am a self-published writer.
+            </label>
+          </div>
+        </div>
+
+        <!-- Anything else message? -->
+        <div class="col-12">
+          <label for="TextareaAnythingElse" class="form-label"
+            >Anything else you'd like to add?</label
+          >
+          <textarea
+            class="form-control"
+            id="TextareaAnythingElse"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <!-- How did you hear -->
+        <div class="col-12">
+          <label for="inputHowHear" class="form-label"
+            >How did you hear abour Dreamers Match (the very first time)?</label
+          >
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="exampleRadios1">
+              Search Engine
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option2"
+            />
+            <label class="form-check-label" for="exampleRadios2">
+              Instagram
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option3"
+            />
+            <label class="form-check-label" for="exampleRadios3">
+              Facebook
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option4"
+            />
+            <label class="form-check-label" for="exampleRadios4">
+              Twitter
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="exampleRadios"
+              id="inputAboutMe"
+              value="option5"
+            />
+            <label class="form-check-label" for="exampleRadios5">
+              Reffered by a member of the group
+            </label>
+          </div>
+        </div>
+        <!-- Submit btn -->
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- Sign Up Form Ends -->
+
+    <!-- Footer Starts -->
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Ends -->
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
