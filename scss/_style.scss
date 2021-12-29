@@ -12,8 +12,13 @@ h4 {
   font-family: $body-font;
 }
 
+// address bg-color for sub pages
 body {
   height: 100%;
+}
+
+html {
+  background-color: $primary;
 }
 
 .showcase {
@@ -44,6 +49,13 @@ body {
     font-family: $body-font;
     font-size: 1rem;
   }
+}
+
+// Mentors
+
+.mentor {
+  height: 200px;
+  width: 200px;
 }
 
 // #background-image {
