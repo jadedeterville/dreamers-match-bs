@@ -17,10 +17,6 @@ body {
   height: 100%;
 }
 
-html {
-  background-color: $primary;
-}
-
 .showcase {
   margin-top: 100px;
 }
@@ -65,6 +61,14 @@ html {
 
 .works {
   background-color: rgba($color: #fff, $alpha: 0.7);
+}
+
+// Find your match
+
+.match-title,
+.mentoring-title,
+.resources-title {
+  margin-top: 100px;
 }
 
 // Mentors

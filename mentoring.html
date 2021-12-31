@@ -12,16 +12,17 @@
     <title>Dreamers Match | Find Your Writing Bestie</title>
   </head>
 
-  <body>
+  <body class="bg-primary">
     <!-- Nav Starts -->
 
+    
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
-            src="/img/gitlab-logo-1-color-white-rgb.png"
+            src="/img/Dreamers Logo Daco_6161474.png"
             alt=""
-            width="100"
+            width="50"
             height="45"
           />
         </a>
@@ -44,13 +45,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FIND YOUR MATCH</a>
+              <a class="nav-link" href="find_your_match.html">FIND YOUR MATCH</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resources.html">RESOURCES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">MENTORING</a>
+              <a class="nav-link active" href="mentoring.html">MENTORING</a>
             </li>
           </ul>
           <button
@@ -80,7 +81,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="loginModal">Modal title</h5>
+            <h5 class="modal-title" id="loginModal">Login, Dreamer</h5>
             <button
               type="button"
               class="btn-close"
@@ -88,17 +89,51 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+
+            <div class="form-title text-center">
+            </div>
+            <div class="d-flex flex-column text-center">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email1"placeholder="Your email address...">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                </div>
+                <button type="button" class="btn btn-info text-light my-3">Login</button>
+              </form>
+              
+              <div class="text-center text-muted">or use a social network</div>
+              <div class="d-flex justify-content-center social-buttons">
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-facebook"></i>
+                </button>
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-linkedin"></i>
+                </button>
+              </di>
+            </div>
+          </div>
+        </div>
+
+
+
+
           <div class="modal-footer">
+            <h6 class="text-muted">New user? Join the Dreamers today.</h6>
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary text-light"
               data-bs-dismiss="modal"
             >
-              Close
+              Create an account
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -111,8 +146,8 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1 class="display-3">Mentoring</h1>
-            <h4 class="my-3">
+            <h1 class="display-3 text-center mentoring-title">Mentoring</h1>
+            <h4 class="my-3 pb-5 text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
               esse!
             </h4>
@@ -518,29 +553,33 @@
     <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col text-center">
             <a
-              class="btn btn-social-icon btn-instagram"
+              class="btn btn-social-icon btn-lg btn-instagram text-light"
               href="http://instagram.com/"
               ><i class="fa fa-instagram"></i
             ></a>
             <a
-              class="btn btn-social-icon btn-facebook"
+              class="btn btn-social-icon btn-facebook btn-lg text-light"
               href="http://facebook.com/"
               ><i class="fa fa-facebook"></i
             ></a>
             <a
-              class="btn btn-social-icon btn-twitter"
+              class="btn btn-social-icon btn-twitter btn-lg text-light"
               href="http://twitter.com/"
               ><i class="fa fa-twitter"></i
             ></a>
-            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+            <a
+              class="btn btn-social-icon btn-google btn-lg text-light"
+              href="http://youtube.com/"
               ><i class="fa fa-youtube"></i
             ></a>
           </div>
         </div>
       </div>
     </footer>
+
+    <!-- Footer Ends -->
 
     <!-- Footer Ends -->
 
