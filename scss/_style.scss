@@ -56,9 +56,16 @@ html {
   }
 }
 
-// card {
-//   background-color: $bg-primary;
-// }
+// How it works
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.works {
+  background-color: rgba($color: #fff, $alpha: 0.7);
+}
 
 // Mentors
 
