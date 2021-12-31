@@ -17,9 +17,9 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
-            src="/img/gitlab-logo-1-color-white-rgb.png"
+            src="/img/Dreamers Logo Daco_6161474.png"
             alt=""
-            width="100"
+            width="50"
             height="45"
           />
         </a>
@@ -42,7 +42,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">FIND YOUR MATCH</a>
+              <a class="nav-link" href="find_your_match.html">FIND YOUR MATCH</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resources.html">RESOURCES</a>
@@ -78,7 +78,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="loginModal">Modal title</h5>
+            <h5 class="modal-title" id="loginModal">Login, Dreamer</h5>
             <button
               type="button"
               class="btn-close"
@@ -86,17 +86,51 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+
+            <div class="form-title text-center">
+            </div>
+            <div class="d-flex flex-column text-center">
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email1"placeholder="Your email address...">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" id="password1" placeholder="Your password...">
+                </div>
+                <button type="button" class="btn btn-info text-light my-3">Login</button>
+              </form>
+              
+              <div class="text-center text-muted">or use a social network</div>
+              <div class="d-flex justify-content-center social-buttons">
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-twitter"></i>
+                </button>
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-facebook"></i>
+                </button>
+                <button type="button" class="btn btn-secondary text-light mx-2">
+                  <i class="fab fa-linkedin"></i>
+                </button>
+              </di>
+            </div>
+          </div>
+        </div>
+
+
+
+
           <div class="modal-footer">
+            <h6 class="text-muted">New user? Join the Dreamers today.</h6>
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary text-light"
               data-bs-dismiss="modal"
             >
-              Close
+              Create an account
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
+        </div>
         </div>
       </div>
     </div>
@@ -108,7 +142,7 @@
       class="bg-image"
       style="
         background-image: url(/img/pexels-ithalu-dominguez-907485\(1\).jpg);
-        height: 150vh;
+        height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -116,31 +150,32 @@
     >
       <div
         class="mask"
-        style="background-color: rgba(90, 185, 234, 0.4); height: 150vh"
+        style="background-color: rgba(90, 185, 234, 0.4); height: 100%"
       >
-        <section class="p-4 text-light">
+      
+        <section class="p-4 text-light ">
           <div class="container">
-            <div class="d-sm-flex">
+            <div class="d-flex justify-content-center">
               <div class="showcase col">
                 <h1 class="display-3">Dreamers Match</h1>
                 <h2 class="my-3">Find your ultimate writing besties</h2>
 
-                <button class="btn btn-success text-light" role="button">
+                <a type="button" href="find_your_match.html" class="btn btn-success btn-lg text-light" role="button">
                   Find My Match
-                </button>
-                <button class="btn btn-secondary text-light" role="button">
+                </a>
+                <a type="button" href="how_it_works.html" class="btn btn-secondary btn-lg  text-light" role="button">
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
           </div>
         </section>
 
         <!-- Carousel Starts -->
-
+<!-- d-none d-sm-block -->
 <div class="container">
   <div class="row">
-    <div class="col-6 mx-auto my-5">
+    <div class="col-xs-12 col-md-8 mx-auto my-5">
       <div
       id="carouselExampleCaptions"
       class="carousel slide "
@@ -175,12 +210,12 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption ">
             <h4>DREAMER EVENT</h4>
             <h5>3RD ANNUAL BOOK SWAP</h5>
-            <button class="btn btn-secondary text-light" role="button">
+            <a type="button" href="resources.html" class="btn btn-secondary text-light" role="button">
               Sign Me Up
-            </button>
+            </a>
           </div>
         </div>
         <div class="carousel-item">
@@ -189,12 +224,12 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h4>DREAMER WEBINAR</h4>
             <h5>HOW TO CRITIQUE WITHOUT BEING AN A**</h5>
-            <button class="btn btn-secondary text-light" role="button">
+            <a type="button" href="resources.html" class="btn btn-secondary text-light" role="button">
               Register
-            </button>
+            </a>
           </div>
         </div>
         <div class="carousel-item">
@@ -203,12 +238,12 @@
             class="d-block w-100"
             alt="..."
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption">
             <h4>DREAMER RESOURCE</h4>
             <h5>CHARACTER PLANNING WORKSHEET</h5>
-            <button class="btn btn-secondary text-light" role="button">
+            <a type="button" href="resources.html" class="btn btn-secondary text-light" role="button">
               Access Here
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -240,9 +275,9 @@
 
     <!-- Quote Starts -->
 
-    <div class="container">
+    <div class="container my-5">
       <div class="row">
-        <div class="col-9 mx-auto">
+        <div class="col-9 mx-auto ">
           <p class="dreamer-qt">A dreamer is one who can only find their way by moonlight, and their punishment is that they see the dawn before the rest of the world.</p>
           <footer class="blockquote-footer"><cite title="Source Title">Oscar Wilde</cite></footer>
         </div>
@@ -256,8 +291,8 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-9 mx-auto">
-      <div class="card">
+    <div class="col-9 mx-auto ">
+      <div class="card bg-primary border-0">
         <div class="card-body">
           <blockquote class="blockquote mb-0 mission">
             <h5 class=text-center>Our Mission</h5>
@@ -265,11 +300,11 @@
           </blockquote>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-4 text-center">
         <div class="col">
-          <button class="btn btn-success text-light" role="button">
+          <a type="button" href="find_your_match.html" class="btn btn-success text-light" role="button">
             Find My Match
-          </button>
+          </a>
         </div>
       </div>
       
@@ -285,23 +320,23 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col text-center">
         <a
-          class="btn btn-social-icon btn-instagram"
+          class="btn btn-social-icon btn-lg btn-instagram text-light"
           href="http://instagram.com/"
           ><i class="fa fa-instagram"></i
         ></a>
         <a
-          class="btn btn-social-icon btn-facebook"
+          class="btn btn-social-icon btn-facebook btn-lg text-light"
           href="http://facebook.com/"
           ><i class="fa fa-facebook"></i
         ></a>
         <a
-          class="btn btn-social-icon btn-twitter"
+          class="btn btn-social-icon btn-twitter btn-lg text-light"
           href="http://twitter.com/"
           ><i class="fa fa-twitter"></i
         ></a>
-        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+        <a class="btn btn-social-icon btn-google btn-lg text-light" href="http://youtube.com/"
           ><i class="fa fa-youtube"></i
         ></a>
       </div>

@@ -12,7 +12,7 @@ h4 {
   font-family: $body-font;
 }
 
-// address bg-color for sub pages
+// fix bg-color for sub pages
 body {
   height: 100%;
 }
@@ -29,6 +29,11 @@ html {
 .navbar {
   background-color: $secondary-op;
 }
+
+// Login Modal
+// .btn-round {
+//   border-radius: 50%;
+// }
 
 // Homepage
 
@@ -50,6 +55,10 @@ html {
     font-size: 1rem;
   }
 }
+
+// card {
+//   background-color: $bg-primary;
+// }
 
 // Mentors
 
