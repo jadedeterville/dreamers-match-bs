@@ -101,7 +101,9 @@ body {
     background-color: $secondary;
   }
 
-  // .card-resource {
-  //   align-items: center !important;
-  // }
+  .card-resource {
+    height: 16rem;
+    width: 14rem;
+    text-align: center;
+  }
 }
