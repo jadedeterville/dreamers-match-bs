@@ -12,8 +12,16 @@ h4 {
   font-family: $body-font;
 }
 
+p {
+  font-family: $body-font;
+}
+
 .title-color {
   color: $title-color;
+}
+
+.btn {
+  letter-spacing: 1px;
 }
 
 // fix bg-color for sub pages
