@@ -51,6 +51,16 @@ body {
   background-color: $secondary-op;
 }
 
+.showcase {
+  h1 {
+    color: #fff;
+  }
+
+  h2 {
+    color: #fff;
+  }
+}
+
 // quote and mission styling
 .dreamer-qt {
   font-family: $quote-font;
