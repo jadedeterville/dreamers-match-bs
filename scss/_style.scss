@@ -76,8 +76,8 @@ body {
 }
 
 .quote-img {
-  width:175px;
-  height:175px;
+  width: 175px;
+  height: 175px;
 }
 
 // Mentors
@@ -87,8 +87,21 @@ body {
   width: 200px;
 }
 
+// resources
+.card-resource {
+  height: 24rem;
+  width: 18rem;
+}
+
+// mobile
+
 @media only screen and (max-width: 768px) {
+  // nav styling fully dark
   .navbar {
     background-color: $secondary;
   }
+
+  // .card-resource {
+  //   align-items: center !important;
+  // }
 }
