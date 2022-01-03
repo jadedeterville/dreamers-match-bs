@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin find_your_match.html -d dist --htmlmin -o dist/find_your_match.html && usemin how_it_works.html -d dist --htmlmin -o dist/how_it_works.html && usemin index.html -d dist --htmlmin -o dist/index.html && usemin mentoring.html -d dist --htmlmin -o dist/mentoring.html && usemin resources.html -d dist --htmlmin -o dist/resources.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jade De-Terville Martin",
@@ -12,5 +17,11 @@
     "@popperjs/core": "^2.11.0",
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.7.2"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   }
 }
